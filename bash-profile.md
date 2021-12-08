@@ -1,4 +1,5 @@
 <!-- Bash Profile settings -->
+
 ```css
 # ----------------------
 # Git Aliases
@@ -21,6 +22,7 @@ alias gdf='git diff'
 alias cls='clear'
 alias cd..='cd ..'
 alias c='code .'
+alias gcm1='git commit --date="1 day ago" -m'
 
 # ----------------------
 # Prompt style
