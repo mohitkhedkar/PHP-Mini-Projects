@@ -42,10 +42,11 @@ code --install-extension xabikos.JavaScriptSnippets
     "C_Cpp.updateChannel": "Insiders",
     "liveServer.settings.donotShowInfoMsg": true,
     "git.ignoreWindowsGit27Warning": true,
+    "editor.formatOnPaste": false,
     "workbench.iconTheme": "material-icon-theme",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Default",
     "python.showStartPage": false,
     "files.exclude": {
         "**/.classpath": true,
@@ -56,8 +57,9 @@ code --install-extension xabikos.JavaScriptSnippets
     },
     "liveServer.settings.CustomBrowser": "firefox",
     "dart.openDevTools": "flutter",
-    "editor.fontSize": 20,
+    "editor.fontSize": 23,
     "editor.wordWrap": "on",
+
     "workbench.startupEditor": "none",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
@@ -68,12 +70,14 @@ code --install-extension xabikos.JavaScriptSnippets
     "dart.devToolsBrowser": "default",
     "workbench.sideBar.location": "right",
     "window.zoomLevel": 1,
-    "editor.fontFamily": "'Cascadia code','Anonymous Pro'",
+    "editor.fontFamily": "'Cascadia code','Anonymous Pro','Roboto'",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
     "material-icon-theme.folders.theme": "specific",
     "workbench.colorTheme": "Night Owl",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
-    "window.title": "${activeEditorShort}${separator}${rootPath}${activeEditorMedium}",
+    "window.title": "${activeEditorShort}${separator}${rootPath}",
     "terminal.integrated.localEchoExcludePrograms": [
         "vim",
         "vi",
@@ -81,7 +85,6 @@ code --install-extension xabikos.JavaScriptSnippets
         "tmux",
         "git"
     ],
-    "terminal.external.windowsExec": "C:\\Program Files\\Git\\usr\\bin\\bash.exe\\",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "editor.lineHeight": 30,
     "bracketPairColorizer.rulerPosition": "Right",
@@ -90,10 +93,34 @@ code --install-extension xabikos.JavaScriptSnippets
     "editor.rulers": [
     80
     ],
-    "breadcrumbs.enabled": false,
     "settingsSync.ignoredSettings": [
     
     ],
     "settingsSync.ignoredExtensions": [],
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "gitlens.advanced.messages": {
+        "suppressImproperWorkspaceCasingWarning": true
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "eslint.validate": [
+        {
+          "language": "vue",
+          "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+          },
+        {
+          "language": "html",
+          "autoFix": true
+        },
+        {
+          "language": "javascript",
+          "autoFix": true
+        }
+    ]
 }
 ```
