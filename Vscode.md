@@ -69,7 +69,6 @@ code --install-extension xabikos.JavaScriptSnippets
     "todo-tree.tree.showScanModeButton": false,
     "dart.devToolsBrowser": "default",
     "workbench.sideBar.location": "right",
-    "window.zoomLevel": 1,
     "editor.fontFamily": "'Cascadia code','Anonymous Pro','Roboto'",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
@@ -104,23 +103,25 @@ code --install-extension xabikos.JavaScriptSnippets
     },
     "bracketPairColorizer.depreciation-notice": false,
     "todo-tree.tree.showScanModeButton": false,
-    "eslint.validate": [
-        {
-          "language": "vue",
-          "autoFix": true
-        },
-        {
-            "language": "typescript",
-            "autoFix": true
-          },
-        {
-          "language": "html",
-          "autoFix": true
-        },
-        {
-          "language": "javascript",
-          "autoFix": true
-        }
-    ]
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1
+    // "eslint.validate": [
+    //     {
+    //       "language": "vue",
+    //       "autoFix": true
+    //     },
+    //     {
+    //         "language": "typescript",
+    //         "autoFix": true
+    //       },
+    //     {
+    //       "language": "html",
+    //       "autoFix": true
+    //     },
+    //     {
+    //       "language": "javascript",
+    //       "autoFix": true
+    //     }
+    // ]
 }
 ```
