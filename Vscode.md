@@ -38,149 +38,100 @@ code --install-extension xabikos.JavaScriptSnippets
 # Settings
 ```css
 {
-    "code-runner.runInTerminal": true,
-    "C_Cpp.updateChannel": "Insiders",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "git.ignoreWindowsGit27Warning": true,
-    "editor.formatOnPaste": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Default",
-    "python.showStartPage": false,
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.factorypath": true,
-        "**/.git": false,
-        "**/.project": true,
-        "**/.settings": true
-    },
-    "liveServer.settings.CustomBrowser": "firefox",
-    "dart.openDevTools": "flutter",
-    "editor.fontSize": 23,
-    "editor.wordWrap": "on",
+  "code-runner.runInTerminal": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.ignoreWindowsGit27Warning": true,
+  "editor.formatOnPaste": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Default",
+  "python.showStartPage": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.git": false,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "dart.openDevTools": "flutter",
+  "editor.fontSize": 23,
+  "editor.wordWrap": "on",
 
-    "workbench.startupEditor": "none",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "dart.previewFlutterUiGuides": true,
-    "dart.previewFlutterUiGuidesCustomTracking": true,
-    "todo-tree.tree.showScanModeButton": false,
-    "dart.devToolsBrowser": "default",
-    "workbench.sideBar.location": "right",
-    "editor.fontFamily": "'Cascadia code','Anonymous Pro','Roboto'",
-    "editor.fontLigatures": true,
-    "editor.minimap.enabled": false,
-    "material-icon-theme.folders.theme": "specific",
-    "workbench.colorTheme": "Night Owl",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorBlinking": true,
-    "window.title": "${activeEditorShort}${separator}${rootPath}",
-    "terminal.integrated.localEchoExcludePrograms": [
-        "vim",
-        "vi",
-        "nano",
-        "tmux",
-        "git"
-    ],
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "editor.lineHeight": 30,
-    "bracketPairColorizer.rulerPosition": "Right",
-    "editor.overviewRulerBorder": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.rulers": [
-    80
-    ],
-    "settingsSync.ignoredSettings": [
-    
-    ],
-    "settingsSync.ignoredExtensions": [],
-    "files.autoSave": "onFocusChange",
-    "editor.formatOnSave": true,
-    "gitlens.advanced.messages": {
-        "suppressImproperWorkspaceCasingWarning": true
-    },
-    "bracketPairColorizer.depreciation-notice": false,
-    "todo-tree.tree.showScanModeButton": false,
-    "explorer.confirmDelete": false,
-    "window.zoomLevel": 1
-    // "eslint.validate": [
-    //     {
-    //       "language": "vue",
-    //       "autoFix": true
-    //     },
-    //     {
-    //         "language": "typescript",
-    //         "autoFix": true
-    //       },
-    //     {
-    //       "language": "html",
-    //       "autoFix": true
-    //     },
-    //     {
-    //       "language": "javascript",
-    //       "autoFix": true
-    //     }
-    // ]
+  "workbench.startupEditor": "none",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "dart.devToolsBrowser": "default",
+  "workbench.sideBar.location": "right",
+  "editor.fontFamily": "'Cascadia code','Anonymous Pro','Roboto'",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.colorTheme": "Night Owl",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "window.title": "${activeEditorShort}${separator}${rootPath}",
+  "terminal.integrated.localEchoExcludePrograms": [
+    "vim",
+    "vi",
+    "nano",
+    "tmux",
+    "git"
+  ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.lineHeight": 30,
+  "bracketPairColorizer.rulerPosition": "Right",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.rulers": [80],
+  "settingsSync.ignoredSettings": [],
+  "settingsSync.ignoredExtensions": [],
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "gitlens.advanced.messages": {
+    "suppressImproperWorkspaceCasingWarning": true
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "todo-tree.tree.showScanModeButton": false,
+  "explorer.confirmDelete": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "compact",
+  "window.zoomLevel": 1,
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "off",
+  "workbench.editor.enablePreview": false
+
+  // "eslint.validate": [
+  //     {
+  //       "language": "vue",
+  //       "autoFix": true
+  //     },
+  //     {
+  //         "language": "typescript",
+  //         "autoFix": true
+  //       },
+  //     {
+  //       "language": "html",
+  //       "autoFix": true
+  //     },
+  //     {
+  //       "language": "javascript",
+  //       "autoFix": true
+  //     }
+  // ]
 }
-```
 
-# Key-bindings 
-```css
-// Place your key bindings in this file to override the defaultsauto[]
-[
-    {
-        "key": "ctrl+shift+alt+n",
-        "command": "workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "-workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "extension.advancedNewFile"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "-extension.advancedNewFile"
-    },
-    {
-        "key": "ctrl+o ctrl+k",
-        "command": "workbench.action.files.openFolder"
-    },
-    {
-        "key": "ctrl+k ctrl+o",
-        "command": "-workbench.action.files.openFolder"
-    },
-    {
-        "key": "ctrl+o",
-        "command": "workbench.action.files.openFile"
-    },
-    {
-        "key": "ctrl+o",
-        "command": "-workbench.action.files.openFile"
-    },
-    {
-        "key": "ctrl+alt+l",
-        "command": "extension.liveServer.goOnline",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+l alt+o",
-        "command": "-extension.liveServer.goOnline",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+m",
-        "command": "markdown.showPreviewToSide",
-        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+k v",
-        "command": "-markdown.showPreviewToSide",
-        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
-    }
-  ]
 ```
