@@ -2,35 +2,41 @@
 # Extension list
 ```css
 code --install-extension aaron-bond.better-comments
-code --install-extension albert.TabOut
-code --install-extension alexisvt.flutter-snippets
-code --install-extension austin.code-gnu-global
+code --install-extension albert.tabout
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension burkeholland.simple-react-snippets
 code --install-extension christian-kohler.path-intellisense
-code --install-extension CoenraadS.bracket-pair-colorizer
-code --install-extension Dart-Code.dart-code
-code --install-extension Dart-Code.flutter
+code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
-code --install-extension felixfbecker.php-intellisense
 code --install-extension firefox-devtools.vscode-firefox-debug
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
-code --install-extension Gruntfuggly.todo-tree
+code --install-extension github.github-vscode-theme
+code --install-extension gruntfuggly.todo-tree
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.autopep8
+code --install-extension ms-python.debugpy
+code --install-extension ms-python.isort
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
-code --install-extension ms-toolsai.jupyter
-code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.cpptools-extension-pack
+code --install-extension msjsdiag.vscode-react-native
 code --install-extension patbenatar.advanced-new-file
-code --install-extension PKief.material-icon-theme
-code --install-extension ritwickdey.LiveServer
+code --install-extension pkief.material-icon-theme
+code --install-extension postman.postman-for-vscode
+code --install-extension ritwickdey.liveserver
 code --install-extension sdras.night-owl
-code --install-extension shailen.netlify
-code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension softwaredotcom.swdc-vscode
+code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension tomoki1207.pdf
-code --install-extension wesbos.theme-cobalt2
+code --install-extension twxs.cmake
 code --install-extension wix.vscode-import-cost
-code --install-extension xabikos.JavaScriptSnippets
+code --install-extension xabikos.javascriptsnippets
+
 ```
 
 ---
@@ -70,12 +76,11 @@ code --install-extension xabikos.JavaScriptSnippets
   "workbench.sideBar.location": "right",
   "editor.fontFamily": "'Cascadia code','Anonymous Pro','Roboto'",
   "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
   "material-icon-theme.folders.theme": "specific",
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "GitHub Dark Default",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
-  "window.title": "${activeEditorShort}${separator}${rootPath}",
+  "window.title": "${activeEditorShort}${separator}${activeFolderShort}${separator}${folderName}",
   "terminal.integrated.localEchoExcludePrograms": [
     "vim",
     "vi",
@@ -109,10 +114,31 @@ code --install-extension xabikos.JavaScriptSnippets
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "window.menuBarVisibility": "compact",
-  "window.zoomLevel": 1,
   "breadcrumbs.enabled": false,
   "breadcrumbs.filePath": "off",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.autoLockGroups": {},
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "node"
+  },
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.titleSeparator": " | "
 
   // "eslint.validate": [
   //     {
@@ -133,5 +159,6 @@ code --install-extension xabikos.JavaScriptSnippets
   //     }
   // ]
 }
+
 
 ```
