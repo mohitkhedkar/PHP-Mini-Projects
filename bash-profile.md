@@ -21,11 +21,17 @@ alias gst='git stash'
 alias gstp='git stash pop'
 alias gdf='git diff'
 alias cls='clear'
-alias cd..='cd ..'
+alias cd.. ='cd ..'
 alias c='code .'
+alias a='atom'
+alias sub='subl'
+alias cds='cd d:dev'
 alias gcm1='git commit --date="1 day ago" -m'
 alias gcm2='git commit --date="2 day ago" -m'
 alias gcm3='git commit --date="3 day ago" -m'
+alias ni='npm i'
+alias nrd='npm run dev'
+alias nrb='npm run build'
 
 # ----------------------
 # Prompt style
@@ -46,7 +52,7 @@ else
     PS1="$PS1"'\n'                 # new line
     PS1="$PS1"'\[\033[0;35m\]'       # change to purple
     PS1="$PS1"' '
-    PS1="$PS1"'[\A] - \u '             # time@user<space>
+    PS1="$PS1"'[\A] - \u '             # user@host<space>
     # PS1="$PS1"'\[\033[35m\]'       # change to purple
     # PS1="$PS1"'$MSYSTEM '          # show MSYSTEM
     PS1="$PS1"'\[\033[33m\]'       # change to white
@@ -93,5 +99,10 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM="auto"
 
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 ```
